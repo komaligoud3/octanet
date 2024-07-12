@@ -1,0 +1,105 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('https://png.pngtree.com/back_origin_pic/03/87/90/67ea3cbfbbec114771bbb874c53b3cf2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    color: #ddd8d8;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+header nav ul li a:hover {
+    background: #2e1c1c;
+}
+
+/* Hero Section */
+.hero {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: left;
+}
+
+.hero h2 {
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    color: #c6baba;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #200f0f;
+}
+
+/* Footer Styles */
+footer {
+    color: #fff;
+    text-align: left;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Icon Styles */
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.icons i {
+    color: #7d1616;
+    font-size: 2rem; /* Adjust size as needed */
+    margin: 0 1rem;
+}
